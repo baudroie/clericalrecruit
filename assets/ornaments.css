@@ -1,0 +1,6 @@
+/* Generated raster sprite; each span is decorative and should use aria-hidden="true". */
+.lp-ornament{display:inline-block;background-image:url("ornaments.png");background-repeat:no-repeat;pointer-events:none;}
+.lp-ornament--loop-underline{width:572px;max-width:100%;aspect-ratio:572/46;background-size:219.2308% 2726.0870%;background-position:5.2786% 25.8278%;}
+.lp-ornament--sparkles{width:187px;max-width:100%;aspect-ratio:187/242;background-size:670.5882% 518.1818%;background-position:78.9128% 20.2569%;}
+.lp-ornament--beginner{width:201px;max-width:100%;aspect-ratio:201/274;background-size:623.8806% 457.6642%;background-position:20.7028% 81.2245%;}
+.lp-ornament--note-underline{width:514px;max-width:100%;aspect-ratio:514/140;background-size:243.9689% 895.7143%;background-position:92.2973% 79.7127%;}
