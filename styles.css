@@ -57,3 +57,17 @@
  .hero-note{max-width:calc(100% - 20px);width:fit-content;transform:none}
  .hero-paper{right:14px;transform:rotate(-6deg)}.hero-paper p{inset:28% 3% 0}
 }
+
+/* Keep all three primary facts aligned; the salary note occupies its own row. */
+.facts{align-items:stretch}
+.facts>div{display:grid;grid-template-columns:auto auto;grid-template-rows:minmax(54px,auto) auto;align-content:start;align-items:center;justify-content:center;column-gap:18px;row-gap:2px}
+.facts .fact-icon{grid-column:1;grid-row:1}
+.facts strong{grid-column:2;grid-row:1;line-height:1.4}
+.facts small{grid-column:2;grid-row:2;margin:0;line-height:1.4;text-align:left}
+@media(max-width:1100px) and (min-width:901px){.facts>div{column-gap:12px;grid-template-rows:minmax(36px,auto) auto}}
+@media(max-width:900px){
+ .facts>div{grid-template-columns:1fr;grid-template-rows:34px auto auto;justify-items:center;row-gap:3px}
+ .facts .fact-icon{grid-column:1;grid-row:1}
+ .facts strong{grid-column:1;grid-row:2}
+ .facts small{grid-column:1;grid-row:3;text-align:center}
+}
